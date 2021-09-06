@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# English
 
-## Available Scripts
+## Short Description
 
-In the project directory, you can run:
+This project will be a start for my professional life, since I will be adding with time the projects that I will be doing in addition to the important activities that I have.
 
-### `npm start`
+I am currently 19 years old, I love programming. For now I am specializing in the Frontend area, with the knowledge of HTML, CSS, JavaScript. I am learning React.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Short biography
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+I have been a scout since I was 7 years old. In all my life I have always guided my brother scouts in all the branches and difficulties that have arisen, from local to international teams.
 
-### `npm test`
+At the age of 10 I had contact with my first computer, I was always curious to know how it worked, but at that time I only wanted to play Mario Bros. At 15 years old when I had to enter high school I was given the opportunity to enter the cbtis 111 where was the programming specialty, there I felt I could eat the world I was always interested in that subject, then at that age I made my first line of code in C ++, you think that now I am a prodigy with so much time developing sadly not.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It was then that the pandemic of 2020 arrived, where I had more time that I could designate to learn more things, it was then that I met Platzi while I was looking for a university in my city, since I was planning to go to another state. I passed my college exam and finished high school. I saved enough money to buy Platzi and soon after that here we are, you and me.
 
-### `npm run build`
+I also like finances, from personal to large funds.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Skills
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Technical skills
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- HTML
 
-### `npm run eject`
+- Css
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- JavaScript
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Git/GitHub
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Webpack
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Npm
 
-## Learn More
+- Responsive Desing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Soft skills
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Emotional Intelligence
 
-### Code Splitting
+- Public Speaking
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Empathy
 
-### Analyzing the Bundle Size
+- Creativity
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Security
 
-### Making a Progressive Web App
+- Confidence
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Honesty and integrity
 
-### Advanced Configuration
+- Communication skills
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Flexibility/adaptability
 
-### Deployment
+- Leadership
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Skills in Progress
 
-### `npm run build` fails to minify
+- English
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React
+
+# Español
+
+## Breve descripción
+
+Este proyecto \*será un inicio para mi vida **profesional\***, ya que le iré agregando con forme el tiempo los proyectos que vaya haciendo además de las actividades importantes que tenga.
+
+Actualmente tengo 18 años, me encanta la **programación**. Por ahora me estoy especializando en el área **Frontend**, con los conocimientos de HTML, CSS, JavaScript. Estoy **aprendiendo** React.
+
+## Biografía Corta
+
+Soy scout desde los 7 años. En toda mi vida _siempre he guiado a mis hermanos scout_ en todas las ramas y dificultades que se has presentado, desde equipos de forma **local** hasta **internacional**.
+
+A los 10 años tuve contacto con mi **primera computadora, ** siempre me dio curiosidad el saber cómo funcionaba, pero para ese tiempo solo quería jugar al Mario Bros. A los 15 años cuando tenía que ingresar a la secundaria se me dio la oportunidad de ingresar al CBTIS 111 en donde estaba la especialidad de **programación**, ahí sentía que podría comerme el mundo siempre estuve interesado con esa materia, entonces a esa edad **hice mi primera línea de código** en C++, pensaras que ahorita soy un prodigio con tanto tiempo desarrollando **tristemente no**.
+
+Fue entonces que llego la pandemia del 2020, donde tenía más tiempo al cual podría designar para aprender más cosas, fue entonces que conocí Platzi mientras estaba buscando universidad en mi cuidad, ya que tenía pensado irme a otro estado. Pase sin problemas mi examen de la universidad y termine la prepa. Ahorre lo suficiente para comprar Platzi y poco después aquí estamos tu y yo.
+
+Me gusta también las finanzas, desde las que van de manera personal hasta de grandes fondos.
+
+### Habilidades
+
+Habilidades técnicas
+
+- HTML
+
+- Css
+
+- JavaScript
+
+- Git/GitHub
+
+- Webpack
+
+- Npm
+
+- Responsive Desing
+
+Habilidades blandas
+
+- Inteligencia Emocional
+
+- Hablar en publico
+
+- Empatía
+
+- Creatividad
+
+- Seguridad
+
+- Confianza
+
+- Honestidad e integridad
+
+- Habilidades comunicativas
+
+- Flexibilidad/adaptabilidad.
+
+- Liderazgo
+
+Habilidades en Progreso
+
+- Ingles
+
+- React
