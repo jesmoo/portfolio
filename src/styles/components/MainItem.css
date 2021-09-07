@@ -1,0 +1,104 @@
+.work--container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 4px 0px rgb(0 0 0 / 25%);
+}
+.green {
+  background-color: var(--LightGreen);
+}
+.elements--card {
+  margin-top: 1.5rem;
+  position: relative;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+.card--text {
+  padding: 1.5rem;
+  grid-column: 1 / 4;
+}
+.card--text h2 {
+  margin-bottom: 1rem;
+}
+/* icons card */
+.card--technologies {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+  grid-column: 4 / 5;
+  justify-self: center;
+}
+.technologies--item__group {
+  width: 4.5rem;
+  height: 4.5rem;
+  display: flex;
+  background-color: #cbf1f5;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  box-shadow: 0 0.4rem 0.4rem 0rem rgb(0 0 0 / 25%);
+}
+.technologies--itemIcon {
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Use {
+  width: 2.3rem;
+  height: 2rem;
+  background-image: url('../../assets/icons/tecnologias.svg');
+}
+.Html {
+  width: 1.8rem;
+  height: 2rem;
+  background-image: url('../../assets/icons/html.svg');
+}
+.Css {
+  width: 1.8rem;
+  height: 2rem;
+  background-image: url('../../assets/icons/css.svg');
+}
+.Js {
+  width: 1.8rem;
+  height: 2rem;
+  background-image: url('../../assets/icons/javascript.svg');
+}
+.webpack {
+  width: 2.4rem;
+  height: 2.7rem;
+  background-image: url('../../assets/icons/webpack.svg');
+}
+.technologies--item {
+  width: 3.5rem;
+  height: 3.5rem;
+  z-index: 2;
+  display: none;
+  margin-top: 0.5rem;
+}
+.card--technologies:hover > .technologies--item {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  box-shadow: 0 0.4rem 0.4rem 0rem rgb(0 0 0 / 25%);
+}
+.card--technologies:hover {
+  position: absolute;
+  height: auto;
+}
+.card--img {
+  margin: 0 auto;
+}
+.card--img picture img {
+  width: 21.2rem;
+  height: 22.7rem;
+  grid-column: 2 / 4;
+}

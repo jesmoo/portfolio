@@ -1,14 +1,16 @@
+import React from 'react';
 import Layout from '../components/Layout';
+import MainInicio from '../components/MainInicio';
 import '../styles/App.css';
 
-function App() {
+const App = () => {
   return (
     <>
       <Layout>
-        <h1>Hola</h1>
+        <MainInicio />
       </Layout>
     </>
   );
-}
+};
 
 export default App;

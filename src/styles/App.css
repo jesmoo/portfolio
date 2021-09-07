@@ -21,7 +21,6 @@ html {
 }
 body {
   padding: 15px;
-  background-color: var(--grayColor);
   font-size: 1.6rem;
   display: grid;
   grid-template-rows: auto 1fr auto;
