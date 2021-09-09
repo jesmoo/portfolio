@@ -6,10 +6,10 @@ const MainItems = ({ title, description, url, alternative, technologies }) => {
   return (
     <a
       href="https://www.batabit.jesmoo.xyz/"
-      className="work--container project1 green"
+      className={`work--container project1 ${title}`}
     >
       <section className="elements--card">
-        <section className="card--text">
+        <section className={`card--text ${title}__text`}>
           <h2>{title}</h2>
           <p>{description} </p>
         </section>

@@ -1,12 +1,30 @@
+.main--elements {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 359px));
+  grid-column-gap: 2rem;
+}
 .work--container {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 4px 0px rgb(0 0 0 / 25%);
 }
-.green {
-  background-color: var(--LightGreen);
+/* backgroun de las card */
+.BatataBit {
+  background: linear-gradient(45deg, #f7931a, #201e1c);
 }
+.BatataBit__text {
+  color: white;
+  font-weight: bold;
+}
+.BatataBit__text h2 {
+  color: #f7931a;
+}
+.work--container {
+  grid-column: span 1;
+}
+
 .elements--card {
   margin-top: 1.5rem;
   position: relative;
