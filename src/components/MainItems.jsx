@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Tecno from './Tecno';
 import '../styles/components/MainItem.css';
 
 const MainItems = ({ title, description, url, alternative, technologies }) => {
   return (
-    <a
+    <Link
+      to={`/preview/${title}`}
+      className="btn btn-primary mb-4"
       href="https://www.batabit.jesmoo.xyz/"
       className={`work--container project1 ${title}`}
     >
@@ -27,7 +30,7 @@ const MainItems = ({ title, description, url, alternative, technologies }) => {
           <img loading="lazy" src={url} alt={alternative} />
         </picture>
       </section>
-    </a>
+    </Link>
   );
 };
 

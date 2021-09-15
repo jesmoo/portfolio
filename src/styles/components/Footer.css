@@ -1,4 +1,7 @@
 footer {
+  width: 100%;
+  max-width: 32rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -8,8 +11,6 @@ footer {
   display: grid;
   justify-items: center;
   align-items: center;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem;
 }
 .icons--item {
   display: block;
@@ -20,26 +21,22 @@ footer {
 .github {
   width: 2.3rem;
   height: 3rem;
-  grid-column: 1 / 2;
   background-image: url('../../assets/icons/github.svg');
 }
 .linkedin {
   width: 3rem;
   height: 3rem;
-  grid-column: 2 / 3;
   background-image: url('../../assets/icons/linkedin.svg');
 }
 .twitter {
   width: 3rem;
   height: 2.4rem;
-  grid-column: 3 / 4;
   background-image: url('../../assets/icons/twitter.svg');
 }
 .instagram {
   width: 3rem;
   height: 3rem;
   background-image: url('../../assets/icons/instagram.svg');
-  grid-column: 4 / 5;
 }
 .section--email {
   display: flex;

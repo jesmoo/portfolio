@@ -2,12 +2,11 @@ header {
   height: 100%;
 }
 .header--section {
+  width: 100%;
+  max-width: 102.4rem;
   height: 100%;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem;
-  justify-content: space-between;
-  align-items: center;
 }
 .section--span {
   width: 2.6rem;
@@ -16,16 +15,10 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../../assets/icons/paginaInicio.svg');
-  grid-column: 1 / 2;
   display: block;
 }
 .header--menu {
   height: 100%;
-  grid-column: 3 / 5;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .header--menu h3 {
   margin-left: 1.5rem;

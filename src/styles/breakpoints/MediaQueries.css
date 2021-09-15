@@ -1,0 +1,90 @@
+/* header */
+.header--section {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.section--span {
+  width: 2.6rem;
+  height: 2.3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../../assets/icons/paginaInicio.svg');
+  grid-column: 1 / 2;
+  display: block;
+}
+.header--menu {
+  height: 100%;
+  grid-column: 3 / 5;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* navbar component */
+.main--text {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-column-gap: 2rem;
+  grid-row-gap: 0.7rem;
+}
+.main--text h1 {
+  grid-column: span 3;
+  grid-row: 1 / 2;
+}
+.main--text p {
+  grid-column: span 3;
+  grid-row: 2 / 3;
+}
+ul {
+  grid-column: 2 / -1;
+}
+.main--menu {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+/* footer */
+.section--icons {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.github {
+  grid-column: span 1;
+}
+.linkedin {
+  grid-column: span 1;
+}
+.twitter {
+  grid-column: span 1;
+}
+.instagram {
+  grid-column: span 1;
+}
+@media (min-width: 768px) {
+  /* header */
+  .header--section {
+    grid-template-columns: repeat(8, 1fr);
+  }
+  .header--menu {
+    grid-column: 7 / 9;
+  }
+  /* navbar */
+  .main--text {
+    grid-template-columns: repeat(8, 1fr);
+  }
+  .main--text h1 {
+    grid-column: span 4;
+  }
+  .main--text p {
+    grid-column: span 4;
+  }
+  .main--menu {
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 2rem;
+  }
+  ul {
+    grid-column: 4 / -1;
+  }
+}

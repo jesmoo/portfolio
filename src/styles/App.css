@@ -22,9 +22,6 @@ html {
 body {
   padding: 15px;
   font-size: 1.6rem;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  align-items: center;
 }
 header {
   width: 100%;
