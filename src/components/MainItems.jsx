@@ -9,6 +9,7 @@ const MainItems = ({ title, description, url, alternative, technologies }) => {
       to={`/preview/${title}`}
       className="btn btn-primary mb-4"
       href="https://www.batabit.jesmoo.xyz/"
+      // eslint-disable-next-line react/jsx-no-duplicate-props
       className={`work--container project1 ${title}`}
     >
       <section className="elements--card">
