@@ -23,6 +23,14 @@ const useInitialState = () => {
             classIcon: 'Css',
           },
         ],
+        allTechnologies: [
+          {
+            id: 0,
+            altTitle: 'Html5',
+            classIcon: 'Html',
+          },
+          { id: 1, altTitle: 'Css3', classIcon: 'Css' },
+        ],
       },
       {
         title: 'Simons',
@@ -43,6 +51,15 @@ const useInitialState = () => {
             altTitle: 'JavaScript',
             classIcon: 'Js',
           },
+        ],
+        allTechnologies: [
+          {
+            id: 0,
+            altTitle: 'Html5',
+            classIcon: 'Html',
+          },
+          { id: 1, altTitle: 'Css3', classIcon: 'Css' },
+          { id: 2, altTitle: 'JavaScript', classIcon: 'Js' },
         ],
       },
       {
@@ -68,6 +85,17 @@ const useInitialState = () => {
             altTitle: 'Webpack',
             classIcon: 'webpack',
           },
+        ],
+        allTechnologies: [
+          {
+            id: 0,
+            altTitle: 'Html5',
+            classIcon: 'Html',
+          },
+          { id: 1, altTitle: 'Css3', classIcon: 'Css' },
+          { id: 2, altTitle: 'JavaScript', classIcon: 'Js' },
+          { id: 3, altTitle: 'JavaScript', classIcon: 'Js' },
+          { id: 4, altTitle: 'Webpack', classIcon: 'webpack' },
         ],
       },
     ]);

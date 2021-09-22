@@ -62,44 +62,7 @@
   border-radius: 100%;
   box-shadow: 0 0.4rem 0.4rem 0rem rgb(0 0 0 / 25%);
 }
-.technologies--itemIcon {
-  display: block;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.Use {
-  width: 2.3rem;
-  height: 2rem;
-  background-image: url('../../assets/icons/tecnologias.svg');
-}
-.Html {
-  width: 1.8rem;
-  height: 2rem;
-  background-image: url('../../assets/icons/html.svg');
-}
-.Css {
-  width: 1.8rem;
-  height: 2rem;
-  background-image: url('../../assets/icons/css.svg');
-}
-.Js {
-  width: 1.8rem;
-  height: 2rem;
-  background-image: url('../../assets/icons/javascript.svg');
-}
-.webpack {
-  width: 2.4rem;
-  height: 2.7rem;
-  background-image: url('../../assets/icons/webpack.svg');
-}
-.technologies--item {
-  width: 3.5rem;
-  height: 3.5rem;
-  z-index: 2;
-  display: none;
-  margin-top: 0.5rem;
-}
+
 .card--technologies:hover > .technologies--item {
   background-color: white;
   display: flex;

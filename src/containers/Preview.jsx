@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import useInitialState from '../Hooks/useInitialState';
 import Tecno from '../components/Tecno';
 
+import '../styles/containers/Preview.css';
+
 const Preview = (props) => {
   // datos que vamos a usar
   const initialState = useInitialState();
@@ -43,23 +45,31 @@ const Preview = (props) => {
   );
 
   return (
-    <main className="container__Preview">
+    <>
       {initialState &&
         initialState.map((item) =>
           item.title === titleProps ? (
-            <section className="Preview__text" key={item.title}>
-              <p className="text__subtitle">data</p>
-              <h2 className="text__title">{item && item.title}</h2>
-              <p className="text__description">{item && item.description}</p>
-              <p className="text__justText">Se utilizo </p>
-              <section className="tecnologies"></section>
+            <main className="container__Preview">
+              <section className="Preview__text" key={item.title}>
+                <p className="text__subtitle">data</p>
+                <h2 className="text__title">{item && item.title}</h2>
+                <p className="text__description">{item && item.description}</p>
+                <p className="text__justText">Se utilizo </p>
+                <section className="tecnologies">
+                  {console.log(item.technologies)}
+                  {item &&
+                    item.allTechnologies.map((subitem) => (
+                      <Tecno key={subitem.id} {...subitem} />
+                    ))}
+                </section>
+              </section>
               <section className="Preview__img">
                 <img src="" alt="" />
               </section>
-            </section>
+            </main>
           ) : null
         )}
-    </main>
+    </>
   );
 };
 export default Preview;
