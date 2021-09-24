@@ -3,7 +3,13 @@ import { Link } from 'react-router-dom';
 import Tecno from './Tecno';
 import '../styles/components/MainItem.css';
 
-const MainItems = ({ title, description, url, alternative, technologies }) => {
+const MainItems = ({
+  title,
+  description,
+  urlImg,
+  alternative,
+  technologies,
+}) => {
   return (
     <Link
       to={`/preview/${title}`}
@@ -28,7 +34,7 @@ const MainItems = ({ title, description, url, alternative, technologies }) => {
       </section>
       <section className="card--img ">
         <picture>
-          <img loading="lazy" src={url} alt={alternative} />
+          <img loading="lazy" src={urlImg} alt={alternative} />
         </picture>
       </section>
     </Link>

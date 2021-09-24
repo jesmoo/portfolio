@@ -11,8 +11,10 @@ const useInitialState = () => {
         title: 'BatataBit',
         description:
           'Static page made with html and css. My most important challenge was to be able to make a semantic html layout along with learning the order of css styles.',
-        url: bataImg,
+        urlImg: bataImg,
+        urlLink: 'https://www.batabit.jesmoo.xyz/',
         alternative: 'Page layout with semantic html ',
+
         technologies: [
           {
             altTitle: 'Html5',
@@ -30,13 +32,18 @@ const useInitialState = () => {
             classIcon: 'Html',
           },
           { id: 1, altTitle: 'Css3', classIcon: 'Css' },
+          { id: 2, altTitle: 'Figma', classIcon: 'Figma' },
+          { id: 3, altTitle: 'Git', classIcon: 'git' },
+          { id: 4, altTitle: 'GitHub', classIcon: 'github' },
+          { id: 5, altTitle: 'windows subsystem for linux', classIcon: 'wsl' },
         ],
       },
       {
         title: 'Simons',
         description:
           'A game of following randomly formed patterns. My most difficult challenge was to learn JavaScript to be able to make the logic of the game and its correct functioning.',
-        url: simonsImg,
+        urlImg: simonsImg,
+        urlLink: 'https://www.simondice.jesmoo.xyz/',
         alternative: 'a game of following randomly ordered patterns',
         technologies: [
           {
@@ -60,13 +67,18 @@ const useInitialState = () => {
           },
           { id: 1, altTitle: 'Css3', classIcon: 'Css' },
           { id: 2, altTitle: 'JavaScript', classIcon: 'Js' },
+          { id: 3, altTitle: 'Figma', classIcon: 'Figma' },
+          { id: 4, altTitle: 'Git', classIcon: 'git' },
+          { id: 5, altTitle: 'GitHub', classIcon: 'github' },
+          { id: 6, altTitle: 'windows subsystem for linux', classIcon: 'wsl' },
         ],
       },
       {
         title: '100tifico',
         description:
           'Single Page Application (SPA) with Rick and morty api. My most important challenge was the integration with webpack to be able to integrate all the elements in a way',
-        url: tificImg,
+        urlImg: tificImg,
+        urlLink: 'https://www.spa.jesmoo.xyz/',
         alternative: 'SPA page with the api of rick and morty ',
         technologies: [
           {
@@ -94,8 +106,11 @@ const useInitialState = () => {
           },
           { id: 1, altTitle: 'Css3', classIcon: 'Css' },
           { id: 2, altTitle: 'JavaScript', classIcon: 'Js' },
-          { id: 3, altTitle: 'JavaScript', classIcon: 'Js' },
+          { id: 3, altTitle: 'Figma', classIcon: 'Figma' },
           { id: 4, altTitle: 'Webpack', classIcon: 'webpack' },
+          { id: 5, altTitle: 'Git', classIcon: 'git' },
+          { id: 6, altTitle: 'GitHub', classIcon: 'github' },
+          { id: 7, altTitle: 'windows subsystem for linux', classIcon: 'wsl' },
         ],
       },
     ]);

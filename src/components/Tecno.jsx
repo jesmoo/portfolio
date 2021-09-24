@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/components/Tecno.css';
 
-const Tecno = ({ altTitle, classIcon }) => {
+const Tecno = ({ grid = '', block = '', altTitle, classIcon }) => {
   return (
-    <div className="technologies--item" title={altTitle}>
-      <span className={`technologies--itemIcon ${classIcon}`}></span>
+    <div className={`technologies--item ${block}`} title={altTitle}>
+      <span className={` technologies--itemIcon ${grid} ${classIcon}`}></span>
     </div>
   );
 };

@@ -3,6 +3,7 @@ import useInitialState from '../Hooks/useInitialState';
 import Tecno from '../components/Tecno';
 
 import '../styles/containers/Preview.css';
+import '../styles/breakpoints/PreviewQueries.css';
 
 const Preview = (props) => {
   // datos que vamos a usar
@@ -59,9 +60,17 @@ const Preview = (props) => {
                   {console.log(item.technologies)}
                   {item &&
                     item.allTechnologies.map((subitem) => (
-                      <Tecno key={subitem.id} {...subitem} />
+                      <Tecno
+                        grid="technologies--itemIcon-grid"
+                        block="technologies--item-flex"
+                        key={subitem.id}
+                        {...subitem}
+                      />
                     ))}
                 </section>
+                <bottom className="text__btn">
+                  <a href={item.urlLink}>Vamos</a>
+                </bottom>
               </section>
               <section className="Preview__img">
                 <img src="" alt="" />

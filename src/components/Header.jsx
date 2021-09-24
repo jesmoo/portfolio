@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/components/Header.css';
 
 const Header = () => {
@@ -6,9 +7,9 @@ const Header = () => {
     <>
       <header>
         <section className="header--section">
-          <a href="https://www.jesmoo.xyz/index.html">
+          <Link to="/">
             <span className="section--span"></span>
-          </a>
+          </Link>
           <div className="header--menu">
             <a href="https://www.jesmoo.xyz/about.html">
               <h3>about</h3>
