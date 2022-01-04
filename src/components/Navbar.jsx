@@ -3,15 +3,15 @@ import '../styles/components/Navbar.css';
 
 const Navbar = () => {
   return (
-    <>
-      <section className="main--text">
+    <section className="container__navbar">
+      <section className="navbar__text">
         <h1>Hi, i am jesmoo</h1>
         <p>
-          Especially interested in the frontend. I am currently learning UX/UI,
-          React.
+          I am HTMl, CSS and JS with React, I am interested in Design. I want to
+          be part of an IT company as Frontend.
         </p>
       </section>
-      <section className="main--menu">
+      <section className="navbar__menu">
         <ul>
           <li>
             <a href="https://bit.ly/CVJesusMoo">
@@ -30,7 +30,7 @@ const Navbar = () => {
           </li>
         </ul>
       </section>
-    </>
+    </section>
   );
 };
 

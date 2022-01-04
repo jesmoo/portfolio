@@ -1,21 +1,33 @@
-.main--text {
-  padding-top: 1.2rem;
-  display: grid;
+.container__navbar {
+  background-color: #041c32;
 }
-.main--text h1 {
-  color: #f35b17;
+.navbar__text {
+  width: 77%;
+  padding: 0 15px;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  padding-top: 3.5rem;
+  color: #fff;
 }
-.main--menu {
+.navbar__text h1 {
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+.navbar__menu {
   width: 100%;
   max-width: 102.4rem;
-  height: 5.5rem;
+  height: 5rem;
+  padding: 0 15px;
   margin: 0 auto;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
+  margin-top: 3.5rem;
   display: grid;
+  background-color: #064663;
 }
 ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.navbar__menu h2 {
+  color: #fff;
 }

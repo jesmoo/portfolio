@@ -1,39 +1,37 @@
-header {
-  height: 100%;
-}
-.header--section {
-  width: 100%;
-  max-width: 102.4rem;
-  height: 100%;
-  margin: 0 auto;
+.container__header {
+  padding: 15px;
+  padding-bottom: 0;
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  background-color: #041c32;
 }
-.section--span {
+.section__span {
   width: 2.6rem;
   height: 2.3rem;
-  background-position: center;
+  display: block;
+  background-image: url('../../assets/icons/paginaInicio.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../../assets/icons/paginaInicio.svg');
-  display: block;
+  background-position: center;
 }
-.header--menu {
-  height: 100%;
+.container__header a h3 {
+  color: #fff;
 }
-.header--menu h3 {
-  margin-left: 1.5rem;
+.section__about {
+  grid-column: 3 / span 1;
 }
-.donatios--menu {
+.donatios__menu {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-.donatios--menu:hover > a {
+.donatios__menu:hover > a {
   display: block;
 }
-.donatios--coffe {
+.donatios__coffe {
   display: none;
   position: absolute;
   padding-top: 1rem;

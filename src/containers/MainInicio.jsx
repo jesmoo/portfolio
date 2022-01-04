@@ -1,13 +1,13 @@
 import React from 'react';
 import '../styles/components/MainInicio.css';
 import Navbar from '../components/Navbar';
-import MainElements from '../components/MainElements';
+import Skills from '../components/Skills';
 
 const MainInicio = () => {
   return (
     <main>
       <Navbar />
-      <MainElements />
+      <Skills />
     </main>
   );
 };
