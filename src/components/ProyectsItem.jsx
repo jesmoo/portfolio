@@ -10,10 +10,10 @@ const ProyectsItem = ({ title, description, url, icons }) => {
         <div className="proyectList__icons">
           {icons && icons.map((icon, id) => <TecnoIcon key={id} {...icon} />)}
         </div>
+        <a className="proyectList__btn" href={url}>
+          See
+        </a>
       </section>
-      <a className="proyectList__btn" href={url}>
-        See
-      </a>
     </section>
   );
 };

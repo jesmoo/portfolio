@@ -88,3 +88,15 @@ ul {
     grid-column: 4 / -1;
   }
 }
+@media (min-width: 1024px) {
+  .container__navbar::before {
+    contain: 'hola';
+    color: brown;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #041c32;
+  }
+}
