@@ -1,7 +1,7 @@
 import React from 'react';
 import TecnoIcon from './TecnoIcon';
 
-const ProyectsItem = ({ title, description, url, icons }) => {
+const ProyectsItem = ({ title, description, url, icons, img }) => {
   return (
     <section className="section__proyectList">
       <section className="container__proyectLists-text">
@@ -13,6 +13,9 @@ const ProyectsItem = ({ title, description, url, icons }) => {
         <a className="proyectList__btn" href={url}>
           See
         </a>
+      </section>
+      <section className="proyectList__img">
+        <img src={img} alt={`${title} proyect`} />
       </section>
     </section>
   );

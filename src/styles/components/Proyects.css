@@ -43,6 +43,9 @@
 .proyectList__description {
   font-size: 1.8rem;
 }
+.proyectList__img {
+  display: none;
+}
 .proyectList__icons {
   width: 100%;
   height: 4rem;

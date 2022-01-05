@@ -13,6 +13,8 @@ footer {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
   justify-items: center;
   align-items: center;
 }
@@ -25,21 +27,25 @@ footer {
 .github {
   width: 2.3rem;
   height: 3rem;
+  grid-column: span 1;
   background-image: url('../../assets/icons/githubFooter.svg');
 }
 .linkedin {
   width: 3rem;
   height: 3rem;
+  grid-column: span 1;
   background-image: url('../../assets/icons/linkedin.svg');
 }
 .twitter {
   width: 3rem;
   height: 2.4rem;
+  grid-column: span 1;
   background-image: url('../../assets/icons/twitter.svg');
 }
 .instagram {
   width: 3rem;
   height: 3rem;
+  grid-column: span 1;
   background-image: url('../../assets/icons/instagram.svg');
 }
 .section--email {

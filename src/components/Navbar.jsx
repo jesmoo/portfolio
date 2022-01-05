@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/components/Navbar.css';
+import mainImg from '../assets/img/mainImg.png';
 
 const Navbar = () => {
   return (
@@ -10,6 +11,12 @@ const Navbar = () => {
           I am HTMl, CSS and JS with React, I am interested in Design. I want to
           be part of an IT company as Frontend.
         </p>
+        <a href="#skills" className="text__skills">
+          <p>Skills</p>
+        </a>
+      </section>
+      <section className="navbar__img">
+        <img src={mainImg} alt="Proyects" />
       </section>
       <section className="navbar__menu">
         <ul>

@@ -1,4 +1,10 @@
 import { useState, useEffect } from 'react';
+import flagsImg from '../assets/img/flagsImg.png';
+import rickImg from '../assets/img/rickImg.png';
+import rockImg from '../assets/img/rockImg.png';
+import simonImg from '../assets/img/simonImg.png';
+import tipImg from '../assets/img/tipImg.png';
+
 const useInitialState = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
@@ -46,9 +52,10 @@ const useInitialState = () => {
               { icon: 'wsl' },
               { icon: 'javaScript' },
             ],
+            img: flagsImg,
           },
           {
-            title: 'Rick and mort',
+            title: 'Rick and morty',
             description:
               'Displays the content of Rick and Morty characters through its API by obtaining the data with the REST protocol and displaying it with ReactJS.',
             url: 'https://www.rickandmorty.jesmoo.xyz/',
@@ -58,6 +65,7 @@ const useInitialState = () => {
               { icon: 'wsl' },
               { icon: 'javaScript' },
             ],
+            img: rickImg,
           },
           {
             title: 'Rock, Paper, Scissors',
@@ -70,6 +78,7 @@ const useInitialState = () => {
               { icon: 'wsl' },
               { icon: 'javaScript' },
             ],
+            img: rockImg,
           },
           {
             title: 'Simon Says',
@@ -82,6 +91,7 @@ const useInitialState = () => {
               { icon: 'wsl' },
               { icon: 'javaScript' },
             ],
+            img: simonImg,
           },
           {
             title: 'Tip Calculator',
@@ -94,6 +104,7 @@ const useInitialState = () => {
               { icon: 'wsl' },
               { icon: 'javaScript' },
             ],
+            img: tipImg,
           },
         ],
       },
