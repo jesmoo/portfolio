@@ -1,0 +1,71 @@
+.container__proyects {
+  width: 100%;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #041c32;
+}
+.container__proyects h2 {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: lighter;
+}
+.proyects-img {
+  width: 22.4rem;
+  height: 20.9rem;
+  display: block;
+  background: url(../../assets/img/Proyects.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section__proyectList {
+  width: 100%;
+  height: 42rem;
+  padding: 3.4rem 4.4rem;
+  background-color: #ecb366;
+}
+.container__proyectLists-text {
+  width: 23.2rem;
+  height: 35.4rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+}
+.proyectList__icons {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.iconTecno {
+  width: 4rem;
+  height: 100%;
+  display: block;
+  background-color: #f3f0d7;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+}
+.github-proyects {
+  background-image: url(../../assets/icons/javascript.svg);
+}
+.react-proyects {
+  background-image: url(../../assets/icons/javascript.svg);
+}
+.wsl-proyects {
+  background-image: url(../../assets/icons/javascript.svg);
+}
+.javaScript-proyects {
+  background-image: url(../../assets/icons/javascript.svg);
+}
+
+.section__proyectList:nth-child(2n + 1) {
+  background-color: #074764;
+}
