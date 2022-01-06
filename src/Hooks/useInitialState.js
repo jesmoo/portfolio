@@ -97,7 +97,7 @@ const useInitialState = () => {
             title: 'Tip Calculator',
             description:
               'Calculate what you will pay at a restaurant, from the cost of the meal, the tip and even if they split the bill. Using JavaScript and hooks.',
-            url: 'https://www.simonsay.jesmoo.xyz/',
+            url: 'https://www.tipcalculator.jesmoo.xyz/',
             icons: [
               { icon: 'github' },
               { icon: 'react' },

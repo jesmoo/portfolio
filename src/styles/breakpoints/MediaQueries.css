@@ -4,13 +4,13 @@
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 2rem;
   }
-  .section__about {
-    grid-column: 7;
-    align-items: normal;
-    justify-content: normal;
+  .donatios__menu {
+    grid-column: 8 / span 1;
+    justify-content: flex-start;
   }
   /* navbar */
   .container__navbar {
+    padding: 15px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 2rem;
@@ -91,4 +91,37 @@
   }
 }
 @media (min-width: 1024px) {
+  .container__navbar {
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .navbar__text {
+    width: 24rem;
+    grid-column: 2 / span 3;
+  }
+  .navbar__img {
+    grid-column: 7 / -1;
+  }
+  .donatios__menu {
+    justify-content: flex-start;
+  }
+  /* skills */
+  .container__skills {
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .skills__text {
+    grid-column: 2 / span 4;
+  }
+  .skills__img {
+    grid-column: 7 / span 5;
+  }
+  /* proyects */
+  .section__proyectList {
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .container__proyectLists-text {
+    grid-column: 4 / span 3;
+  }
+  .proyectList__img {
+    grid-column: 8 / span 3;
+  }
 }

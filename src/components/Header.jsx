@@ -9,9 +9,6 @@ const Header = () => {
         <Link to="/" className="header__linkHome">
           <span className="section__span"></span>
         </Link>
-        <a className="section__about" href="https://www.jesmoo.xyz/about.html">
-          <h3>about</h3>
-        </a>
         <section className="donatios__menu">
           <a href="https://paypal.me/jesmoo?locale.x=es_XC" title="Paypal">
             <h3>paypal</h3>

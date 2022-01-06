@@ -21,11 +21,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.section__proyectList-bg {
+  background-color: #ecb366;
+}
 .section__proyectList {
   width: 100%;
+  max-width: 102.4rem;
   height: 42rem;
+  margin: 0 auto;
   padding: 3.2rem 4.4rem;
-  background-color: #ecb366;
 }
 .container__proyectLists-text {
   width: 23.2rem;
@@ -81,7 +85,7 @@
 .javaScript-proyects {
   background-image: url(../../assets/icons/javascript.svg);
 }
-.section__proyectList:nth-child(2n + 1) {
+.section__proyectList-bg:nth-child(2n + 1) {
   background-color: #074764;
 }
 .proyectList__btn {
@@ -92,7 +96,7 @@
   align-items: center;
   border: 1px solid black;
 }
-.section__proyectList:nth-child(2n + 1) .proyectList__btn {
+.section__proyectList-bg:nth-child(2n + 1) .proyectList__btn {
   color: #fff;
   border: 1px solid #fff;
 }
